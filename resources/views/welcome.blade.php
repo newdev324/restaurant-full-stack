@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+  
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,12 +69,13 @@
                 margin-bottom: 30px;
             }
         </style>
+        
     </head>
     <body>
         <section id="welcome">
             <div class="welcome-menu">
                 <div class="logo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuWmEGSYYArB_jKgN2mXXjfO4PGKb1JslW9A&usqp=CAU">
+                    <img src="/img/silver-spoon.png">
                  </div>
                   <div class="menu">
                         <div class="menu-title">
@@ -108,7 +114,7 @@
                   <div class="welcome-jumbo">
                   <div class="status">NEW</div>
                   <h1> The Billy Burger</h1>
-                    <img src="https://freepngimg.com/thumb/sandwich/74861-king-hamburger-food-ribs-fries-fast-burger.png" class="burger-fries">
+                    <img src="/img/burger.png" class="burger-fries">
                   </div>
               </section>
               <section id="information">
